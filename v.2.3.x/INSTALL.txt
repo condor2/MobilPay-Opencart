@@ -1,7 +1,7 @@
 =======================================================================
 	INSTALLATION
 =======================================================================
-1. Upload the files from "files" folder to your Opencart root directory (This module was build for OpenCart version 2.0.1.1 but is compatible also with the lastest version - v.2.2)
+1. Upload the files from "Upload" folder to your Opencart root directory (This module was build for OpenCart version 2.3.0.2.
 
 2. Log in to mobilpay.ro and go to "Admin->Conturi de comerciant"
 
