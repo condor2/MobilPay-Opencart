@@ -14,9 +14,9 @@ class ControllerExtensionPaymentMobilpay extends Controller {
 		$order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
 
 		if ($this->config->get('mobilpay_test') == 'live') {
-			$url = 'https://secure.mobilpay.ro';
+			$data['action'] = 'https://secure.mobilpay.ro';
 		} elseif ($this->config->get('mobilpay_test') == 'test') {
-			$url = 'http://sandboxsecure.mobilpay.ro';
+			$data['action'] = 'http://sandboxsecure.mobilpay.ro';
 		}
 
 		#calea catre certificatul public
